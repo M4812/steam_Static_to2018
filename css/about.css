@@ -1,0 +1,253 @@
+
+	body {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+ul,ol {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#center{
+	width: 100%;
+	height: 1000px;
+	font-family: "宋体";
+}
+
+
+/*第一部分*/
+#center_one{
+	width: 100%;
+	height: 700px;
+	background-color: #1D2024;
+}
+
+/*第一部分内容*/
+#one_nr{
+	width: 1000px;
+	height: 700px;
+	margin-left: 21em;
+}
+.nr_left{
+	width: 460px;
+	height: 700px;
+	float: left;
+	position: absolute;
+	/*border: 1px yellow solid;*/
+}
+.logo_steam{
+	width: 100%;
+	height: 400px;
+	margin-top: 9em;
+	/*border: 1px blue solid;*/
+}
+.nr_left p{
+	color: #fff;
+	font-size: 24px;
+}
+.yuand{
+	width: 100%;
+	height: 20px;
+	color: #A6A6A6;
+	font-weight: bold;
+}
+.yuan1{
+	width: 8.5px;
+	height: 8.5px;
+	float: left;
+	margin-top: 7px;
+	font-size: 13px;
+	border-radius: 5.5px;
+	background-color: #2EBFFF;
+}
+.yuan2{
+	width: 8.5px;
+	height: 8.5px;
+	float: left;
+	margin-left: 16em;
+	margin-top: 7px;
+	font-size: 13px;
+	border-radius: 5.5px;
+	background-color: #BAFF2E;
+}
+.anzhuang_steam{
+	width: 210px;
+	height: 40px;
+	margin-top: 3em;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding-top: 15px;
+	padding-left: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	background: linear-gradient(to right,#08BCFF,#2A76FF);
+	filter: opacity(0.8);
+}
+.anzhuang_steam:hover {
+	filter: opacity(1);
+}
+
+
+.nr_right{
+	width: 1150px;
+	height: 700px;
+	overflow: hidden;
+	/*border: 1px red solid;*/
+}
+.right_sp video{
+	width: 100%;
+	height: 700px;
+	margin-left: 8em;
+	margin-top: -4em;
+	object-fit: cover;
+	/*border: 1px blue solid;*/
+}
+
+
+/*了解更多悬浮*/
+#liao{
+	color: #6B6B6B;
+	position: absolute;
+	top: 45.5em;
+	left: 48em;
+	text-decoration: none;
+	cursor: pointer;
+}
+#liao img{
+	margin-left: 1em;
+	margin-top: 10px;
+}
+
+
+/*数字*/
+.szi_1{
+	color: #fff;
+	font-size: 25px;
+	float: left;
+}
+.szi_2{
+	color: #fff;
+	font-size: 25px;
+	float: left;
+	margin-left: 105px;
+}
+
+
+
+
+#juZhen {
+	height: 600px;
+	/*border: 1px red solid;*/
+	padding-top: 100px;
+	background: radial-gradient(#192B42,#1D2024);
+}
+
+.middle {
+	/*border: 1px green dashed;*/
+	height: 300px;
+	width: 400px;
+	position: relative;
+	left:350px;
+	top: 4em;
+	color: #fff;
+	text-align: center;
+
+}
+.middle>p{
+	font-family: "Motiva Sans",Sans-serif;
+	color: #fff;
+}
+
+.img1 {
+	box-shadow: 8px 2px 10px #000;
+}
+.img1Style{
+	position: relative;
+	left: 100px;
+}
+.img1Style2{
+	position: relative;
+	left: 140px;
+	top: 20px;
+}
+.img1Style3{
+	position: relative;
+	left: 180px;
+	top: 40px;
+}
+
+.img1Style4{
+	position: relative;
+	left: 220px;
+	top: 60px;
+}
+
+.img1Style5{
+	position: relative;
+	left: 260px;
+	top: 80px;
+}
+.img1Style6{
+	position: relative;
+	left: -40px;
+	
+}
+
+.img1Style7{
+	position: relative;
+	left: -80px;
+	top: 20px;
+}
+
+.img1Style8{
+	position: relative;
+	left: -120px;
+	top: 40px;
+}
+
+.img1Style9{
+	position: relative;
+	left: -160px;
+	top: 60px;
+}
+.img1Style10{
+	position: relative;
+	left: -200px;
+	top: 80px;
+}
+
+.job {
+	height: 1200px;
+}
+
+.commutity {
+	clear: both;
+	padding-left: 200px;
+}
+.commutity>li {
+	height: 500px;
+	border: 1px red solid;
+	width: 500px;
+	float: left;
+	margin-top: 2em;
+}
+
+.commutityDIV1 {
+	background: url(../img/about/cta_hero_community.png) 0px 100px no-repeat;
+	background-size: 100%;
+}
+
+
+.commutityDIV2 {
+	background: url(../img/about/cta_hero_hardware.png) 0px 30px no-repeat;
+	background-size: 100%;
+}
+
+
+.commutityDIV3 {
+	background: url(../img/about/cta_hero_steamworks.png) 0px 100px no-repeat;
+	background-size: 100%;
+}
